@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mongo-db:
+    build: .
+    environment:
+      - AUTH=yes
+      - MONGODB_ADMIN_USER=admin
+      - MONGODB_ADMIN_PASS=admin
+      - MONGODB_APPLICATION_DATABASE=sample
+      - MONGODB_APPLICATION_USER=mesi
+      - MONGODB_APPLICATION_PASS=mesi
