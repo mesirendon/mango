@@ -1,6 +1,6 @@
 FROM mongo:3.6.3
 
-#EXPOSE 27017 27017
+EXPOSE 27017 27017
 
 ADD run.sh /run.sh
 ADD set_mongodb_password.sh /set_mongodb_password.sh
